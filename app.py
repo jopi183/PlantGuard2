@@ -8,7 +8,7 @@ import base64
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="🌱 PlantGuard",
+    page_title="PlantGuard",
     page_icon="🌱",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -445,4 +445,5 @@ with st.expander("ℹ️ Informasi Teknis"):
     st.write("**Dataset**: PlantVillage Dataset")
     st.write("**Input Size**: 224x224 pixels")
     st.write("**Framework**: TensorFlow/Keras")
+
     st.write("**Deployment**: Streamlit")
